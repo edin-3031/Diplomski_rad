@@ -1,0 +1,36 @@
+Softverska verifikacija je disciplina softverskog inžinjeringa čiji je cilj osigurati da softver u potpunosti zadovolji sve zahtijevana očekivanja.
+
+Definicija verifikacije se izjednačava sa softverskim testiranjem.
+U tom slučaju tu su dva fundamentalna pristupa:
+- Dinamički (poznat još kao eksperimentisanje, dinamičko testiranje ili jednostavno, u daljem kontekstu, testiranje). Ovaj pristup je dobar za pronalaženje grešaka i on se ubavlja tokom izvršenja softvera.
+- Statički (poznato kao analiza ili statičko testiranje). Ovaj pristup je koristan kod dokazivanja tačnosti programa i obavlja se prije pokretanja softvera.
+
+Dinamički - obavlja se prilikom pokretanja softvera i dinamički provjerava njegovo ponašanje (Testna faza). 
+
+Verifikacija je pregledni proces i zavisno o pogledu testa mogu se kategorizirati 3 familije:
+1. Test na malo (testira se jedna funkcija ili klasa) - Unit testing
+2. Test na veliko (testira se grupa klasa) - 
+	*Testiranje modula (jedam modul)
+	*Integracijski test (više od jednog modula)
+	*Sistemski test (čitav sistem)
+3. Test prihvatljivosti - formalni test definira da provjerava prihvatljivosti kriterija za fotver. Tu imamo:
+	*Test funcionalnosti
+	*Test nefunkcionalnosti ()performanse, stres test)
+
+
+Cilj testiranja je pronalazak greški prouzrokovane od strane aktivnosti ili od strane repetitivne performanse jedne ili više aktivnosti (npr. stres test za web server)
+
+
+Integracijsko testiranje slijedi nakon jediničnog.
+
+Za grupiranje programskih jedinica koriste se sljedeći pristupi:
+* inkrementalna (postupno dodavanje programskih jedinica)
+* integracija top down (hijerarhijska struktura sistema)
+* integracija bottom up
+* sendvič integracija (kombinacija prethodne dvije)
+* veliki prasak (testiranje svih pojedinačnih modula, te se nakon testiranja u jednom koraku integriraju u cjelinu)
+
+Reference
+A survey of Automated Techniques for Formal Software Verification - Vijay D'Silva, Daniel Kroening, Georg Weissenbacher
+Between Testing and Verification: Dynamic Software Model Checking - Patrice GODEFROID Microsoft Research
+Automatsko testiranje programa Ivana Jukić SVEUČILIŠTE U ZAGREBU FAKULTET ORGANIZACIJE I INFORMATIKE VARAŽDIN

@@ -1,0 +1,15 @@
+Piše se zbog čeg ase razvijene ove metode testiranja
+koje probleme su one riješile
+na koji način su riješili
+ko je to rekao (2,3,4)
+izvor uvoda
+
+zbog čega je moj koda dobar, šta je potvrdio unit test, sažetke kopirati u zaključak
+šta su najčešće greške
+objasniti kako je unit test pomoglo da popravim grešku u softveru
+
+pmenuti različite greške
+
+u zaključku navesti koliko je vremena utrošeno
+
+kako se citira visula studio
